@@ -712,7 +712,16 @@
 
   <!-- Displaying Products End -->
   
- 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('.alert-success' ).fadeOut('slow');
+        }, 1000);
+    });
+</script>
+
 
 </body>
 </html>
